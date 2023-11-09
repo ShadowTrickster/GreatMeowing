@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.oh-no {
+  display: block;
+  color: red;
+  padding: auto;
+  margin: auto;
+  max-width: 800px;
+  max-height: 800px;
+}
+fieldset {
+  display: block;
+  max-width: 850px;
+  max-height: 850px;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.submit-field {
+  border: 0px;
+}
+input {
+  width: 95%;
+  margin: 0 auto;
+}
+.cats {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.cats-img {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 150px;
+  height: 150px;
+}
+
+.color,
+.personality,
+.weight {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}

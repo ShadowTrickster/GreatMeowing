@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <title>Cat Cult</title>
+    <h1>Feline Cultists</h1>
+    <p>Hail the meow!</p>
+  </head>
+  <body>
+    <div class="cats">
+      <div class="cats-img">
+        <img src="cat1.jfif" />
+        <img src="cat2.jpeg" />
+        <img src="cat3.jfif" alt="calt3" />
+      </div>
+    </div>
+    <div class="cat-info">
+      <div id="personal" name="personal" class="personal">
+        <h2>Who you is?</h2>
+        <fieldset>
+          <label for="personal">
+            Nombre:
+            <input id="name" name="name" placeholder="El Pepe" required />
+            Email:
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="example@example.com"
+              required
+            />
+            Random number:
+            <input
+              id="number"
+              name="number"
+              type="number"
+              min="0"
+              max="200"
+              placeholder="0-200"
+            />
+          </label>
+        </fieldset>
+      </div>
+    </div>
+    <h2>Talk to us about your cats</h2>
+    <p>Every cat is it's own individual, how would you describe yours?</p>
+    <fieldset class="cat-desc">
+      <label for="color">
+        <p>What color is your cat?</p>
+        <ul class="color">
+          <li>
+            <label for="color-black">Black</label>
+            <input name="color" class="color" id="color-black" type="radio" />
+          </li>
+          <li>
+            <label for="color-white">White</label>
+            <input name="color" class="color" id="color-white" type="radio" />
+          </li>
+          <li>
+            <label for="color-orange">Orange</label>
+            <input name="color" class="color" id="color" type="radio" />
+          </li>
+          <li>
+            <label for="color-gray">Gray</label>
+            <input name="color" class="color" id="color-gray" type="radio" />
+          </li>
+        </ul>
+      </label>
+      <label for="weight">
+        <input name="weight" class="weight" id="weight" type="radio" />Skinny
+        <input name="weight" class="weight" id="weight" type="radio" />Fat
+        <input name="weight" class="weight" id="weight" type="radio" />Purrfect
+      </label>
+      <label class="personality">
+        <input
+          name="grumpy"
+          class="personality"
+          id="grumpy"
+          type="checkbox"
+        />Grumpy
+        <input
+          name="hyper"
+          class="personality"
+          id="hyper"
+          type="checkbox"
+        />Hyper
+        <input name="lazy" class="personality" id="lazy" type="checkbox" />Lazy
+        <input
+          name="loving"
+          class="personality"
+          id="loving"
+          type="checkbox"
+        />Loving
+        <input name="shy" class="personality" id="shy" type="checkbox" />Shy
+        <input
+          name="social"
+          class="personality"
+          id="social"
+          type="checkbox"
+        />Social
+      </label>
+    </fieldset>
+    <fieldset class="submit-field">
+      <div class="submit-div">
+        <a href="oh-no.html" target="blank"
+          ><input id="submit" name="submit" type="submit" value="Submit"
+        /></a>
+      </div>
+    </fieldset>
+  </body>
+</html>
